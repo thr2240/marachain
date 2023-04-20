@@ -1,0 +1,23 @@
+[
+    {
+      "identity": "member1",
+      "host": "127.0.0.1",
+      "port": "3000",
+      "peerId": "12D3KooWPcqw7PFF5ydH1g51DuF8Bj9H52uuz3pr1vRAFfoev6d3",
+      "status": "inactive"
+    },
+    {
+      "identity": "member2",
+      "host": "127.0.0.1",
+      "port": "3001",
+      "peerId": "12D3KooWQiaWtQpoJpoXKS4pgaPbKhqnJeKi6RjaV3Sb8MpkdtvA",
+      "status": "inactive"
+    },
+    {
+      "identity": "member3",
+      "host": "127.0.0.1",
+      "port": "3002",
+      "peerId": "12D3KooWHhtrjzwNZUifqaZoUwpfEw3QJitxB38ut4g9HHAYBo26",
+      "status": "inactive"
+    }
+]

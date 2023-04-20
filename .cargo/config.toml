@@ -1,0 +1,38 @@
+[env]
+NAME = "MaraChain Federation management" 
+VERSION = "0.01"
+AUTHOR = "Ashu Swami"
+
+CLOCK_DATE = "01/04/2023"  
+
+MNEMONIC = "night exit survey crisp once ignore unique panel fault aware close super"
+
+PEER_PUB = "12D3KooWHhtrjzwNZUifqaZoUwpfEw3QJitxB38ut4g9HHAYBo26"
+PEER_PRIVATE = "08011240722ad9a5ecf7509446856f0d9657979c8f1efedeb6e1935f671089a218cea36c7535216f714c51459627aa8f9104bb8267208e84571f7c7595694e143b83a7d7"
+
+USER_PUB = "xpub6DV897LZg6YVkbt9ox37rrvBxGKo2y71aPLV6eimuU4KWbBNm1m29FiiSxiBCYooFBxCZFfLsnuaAsXkRqPgMPtcN9pfUbTne5qUciESxY8"
+
+NETWORK= "regtest"
+DATADIR = "/Users/jk/MIKE/federation/management2/src/data/"
+DATABASE = "/Users/jk/MIKE/federation/management2/src/database/federation.db"
+
+BITCOIN_RPC = "http://drivechain:integrationtesting@127.0.0.1:19011/"
+BITCOIN_RPC_USER = "drivechain"
+BITCOIN_RPC_PASS = "integrationtesting"
+
+MARANODE_RPC = "http://marachain:integrationtesting@127.0.0.1:18443/"
+
+
+CLI_LOCATION = "federation"
+IDENTITY = "member3"
+
+SIDECHAIN_FEE = "0.00001"
+BITCOIN_FEE = "0.001"
+
+BLOCK_CONFIRNATION_THRESHOLD = "6"
+TRANSACTION_SIGNATURE_SIZE = "71"
+
+MAINCHAIN_ZMQ_URL = "tcp://127.0.0.1:27000"
+SIDECHAIN_ZMQ_URL = "tcp://127.0.0.1:37000"
+WITHDRAW_ADDRESS = "bcrt1qy8gu9wzxhk8fdh6ay3pggzr2sswkjs48znj8sk"
+

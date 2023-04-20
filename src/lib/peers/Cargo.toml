@@ -1,0 +1,18 @@
+[package]
+name  = "peerlib"
+version = "0.0.1"
+authors = ["Ashu Swami"]
+edition = "2021"
+
+[lib]
+name = "peerlib"
+path = "lib.rs"
+
+[dependencies]
+async-std = { version = "1.12", features = ["attributes"] }
+async-trait = "0.1"
+env_logger = "0.10.0"
+futures = "0.3.28"
+libp2p = { version = "0.51.2", features = ["async-std", "gossipsub", "mdns", "noise", "macros", "tcp", "yamux"] }
+libp2p-quic = { version = "0.7.0-alpha.3", features = ["async-std"] }
+rusqlite = "0.28.0"

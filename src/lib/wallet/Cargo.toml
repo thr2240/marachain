@@ -1,0 +1,23 @@
+[package]
+name  = "walletlib"
+version = "0.0.1"
+authors = ["Ashu Swami"]
+
+[lib]
+name = "walletlib"
+path = "lib.rs"
+
+[features]
+use-serde = ["serde", "bitcoin/use-serde"]
+
+
+[dependencies]
+bitcoin = "0.26"
+rand = "0.7"
+rust-crypto = "0.2"
+serde = { version = "1", optional = true, features = ["derive"] }
+
+[dev-dependencies]
+bitcoin = { version = "0.26", features = ["use-serde", "bitcoinconsensus"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
