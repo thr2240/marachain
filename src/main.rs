@@ -18,7 +18,6 @@ mod mara_fed_scanner;
 use mara_fed_scanner::scanner_utils::{ listen_zmq,listen_sidechain_zmq };
 use rusqlite::Connection;
 
-
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     let _ = sync_database().await;
@@ -96,5 +95,3 @@ async fn main() -> std::io::Result<()> {
 
 
 }
-
-

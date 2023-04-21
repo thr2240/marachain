@@ -13,8 +13,8 @@ PEER_PRIVATE = "08011240722ad9a5ecf7509446856f0d9657979c8f1efedeb6e1935f671089a2
 USER_PUB = "xpub6DV897LZg6YVkbt9ox37rrvBxGKo2y71aPLV6eimuU4KWbBNm1m29FiiSxiBCYooFBxCZFfLsnuaAsXkRqPgMPtcN9pfUbTne5qUciESxY8"
 
 NETWORK= "regtest"
-DATADIR = "/Users/jk/MIKE/federation/management2/src/data/"
-DATABASE = "/Users/jk/MIKE/federation/management2/src/database/federation.db"
+DATADIR = "/root/marachain/src/data/"
+DATABASE = "/root/marachain/src/database/federation.db"
 
 BITCOIN_RPC = "http://drivechain:integrationtesting@127.0.0.1:19011/"
 BITCOIN_RPC_USER = "drivechain"

@@ -1,8 +1,9 @@
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 
 use super::member_utils::FedMember;
 
-#[derive(Serialize)]
+
+#[derive(Debug, Serialize, Deserialize)]
 pub struct MemberListModel {
-    pub data: Vec<FedMember>
+    pub data: Vec<FedMember>,
 }

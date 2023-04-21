@@ -64,3 +64,4 @@ pub fn get_balance_listings(text: String) -> Result<impl Responder> {
     };
     Ok(Json(obj))
 }
+

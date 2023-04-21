@@ -23,6 +23,8 @@ qstring = "0.7.2"
 zmq = "0.9.1"
 hex = "0.4.0"
 chrono = "0.4.24"
+tempfile ="3.2.0"
+futures = "0.3"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
